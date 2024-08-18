@@ -71,7 +71,7 @@ def produce_data_to_kafka_topic(topic, file_path):
             
             print("\nRecord successfully flushed to Kafka!")   #This message confirms the flush is complete
 
-            time.sleep(1)  # wait for 1 sec 
+            #time.sleep(1)  # wait for 1 sec 
             
     except KeyboardInterrupt:
         pass
